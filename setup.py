@@ -26,8 +26,8 @@ setup(
     url='http://github.com/cokelaer/spectrum',
     license='new BSD',
 
-    ext_modules=[Extension('spectrum.mydpss', ['src/cpp/mydpss.c', ],
-        export_symbols=['multitap'])],
+    # ext_modules=[Extension('spectrum.mydpss', ['src/cpp/mydpss.c', ],
+                           # export_symbols=['multitap'])],
 
     packages = find_packages('src'),
     package_dir={ '' : 'src' },
